@@ -2,6 +2,7 @@ import { ethers } from 'ethers';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   const [account, setAccount] = useState<string | null>(null);
@@ -31,7 +32,7 @@ const Header = () => {
     <div className="container m-auto header_wrap">
       <div className="m-auto py-[0.95rem] flex flex-wrap justify-between">
         <div className="flex flex-wrap cursor-pointer">
-          <a href='/'>
+          <Link href='/'>
             <Image
               src="/svg/logo.svg"
               alt="Logo"
@@ -39,12 +40,12 @@ const Header = () => {
               height={40}
               priority
             />
-          </a>
+          </Link>
           <ul className="flex flex-wrap pl-5">
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right">Trade</li>
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right">Earn</li>
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right">xVictory</li>
-            <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right"><a href='/liquidity'>Liquidity</a></li>
+            <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right"><Link href='/liquidity'>Liquidity</Link></li>
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right">More</li>
           </ul>
         </div>
