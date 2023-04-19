@@ -53,16 +53,11 @@
 }
 
 .crypto_input_one {
-  @apply text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] 
-  pl-6;
+  @apply text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] pl-6;
 }
 
 .change {
   @apply bg-change bg-no-repeat mt-3 ml-4 p-4 cursor-pointer;
-}
-
-.plus-symbol {
-  @apply bg-plus bg-no-repeat mt-1 ml-4 p-4 cursor-pointer;
 }
 
 .crypto_input_two {
@@ -79,8 +74,7 @@
 }
 
 .twl_one {
-  @apply p-2 pl-3 mx-2 self-center bg-[#131325] rounded-[11px] 
-  text-[13px];
+  @apply p-2 pl-3 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px];
 }
 .twl_one_count {
   @apply bg-zk bg-no-repeat bg-contain px-6 bg-left;
