@@ -20,23 +20,6 @@
   border-radius: 11px;
 }
 
-.wrapper_swap {
-  @apply flex p-2 cursor-pointer text-xl justify-between flex-wrap text-[#A4A4A9];
-}
-.swap_menu {
-  @apply flex;
-}
-.swap_update {
-  @apply bg-swapUp bg-right bg-no-repeat p-3;
-}
-.swap_config {
-  @apply bg-swapConf pl-6 bg-right bg-no-repeat p-3;
-}
-
-.yellow-arrow {
-  @apply bg-arrow bg-no-repeat p-3;
-}
-
 .input_one {
   @apply flex justify-between p-1 pt-8;
 }
@@ -54,10 +37,6 @@
 
 .crypto_input_one {
   @apply text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] pl-6;
-}
-
-.change {
-  @apply bg-change bg-no-repeat mt-3 ml-4 p-4 cursor-pointer;
 }
 
 .crypto_input_two {

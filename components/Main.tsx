@@ -15,11 +15,11 @@ const Main = () => {
         </div>
       </div>
       <div className="main_swap">
-        <div className="wrapper_swap">
+        <div className="flex p-2 text-xl justify-between flex-wrap text-[#A4A4A9]">
           <div>Swap</div>
-          <div className="swap_menu">
-            <div onClick={(e) => setMax(0)} className="swap_update"></div>
-            <div className="swap_config"></div>
+          <div className="flex">
+            <div onClick={(e) => setMax(0)} className="bg-swapUp bg-right bg-no-repeat p-3 cursor-pointer"></div>
+            <div className="bg-swapConf pl-6 bg-right bg-no-repeat p-3 cursor-pointer"></div>
           </div>
         </div>
         <div className="wrapper_input_crypto ">
@@ -51,7 +51,7 @@ const Main = () => {
           <div className="flex justify-end text-[#A4A4A9] pr-6 text-[12px]">
             Balance: 12ETH
           </div>
-          <div className="change"></div>
+          <div className="bg-change bg-no-repeat mt-3 ml-4 p-4"></div>
           <div className="input_one">
             <div className="flex">
               <div className="swap_logo_crypto_two"></div>
