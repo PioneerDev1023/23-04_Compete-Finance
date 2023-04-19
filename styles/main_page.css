@@ -1,0 +1,90 @@
+.main_content_wrapper {
+  @apply w-[75rem] m-auto;
+}
+
+.top_menu {
+  @apply flex flex-wrap justify-between py-14;
+}
+
+.main_swap {
+  @apply h-[25rem] w-[37rem] m-auto  p-5;
+  background: #07071c;
+  border: 1px solid #131325;
+  border-radius: 11px;
+}
+
+.liquidity_modal {
+  @apply p-5;
+  background: #07071c;
+  border: 1px solid #131325;
+  border-radius: 11px;
+}
+
+.wrapper_swap {
+  @apply flex p-2 cursor-pointer text-xl justify-between flex-wrap text-[#A4A4A9];
+}
+.swap_menu {
+  @apply flex;
+}
+.swap_update {
+  @apply bg-swapUp bg-right bg-no-repeat p-3;
+}
+.swap_config {
+  @apply bg-swapConf pl-6 bg-right bg-no-repeat p-3;
+}
+
+.yellow-arrow {
+  @apply bg-arrow bg-no-repeat p-3;
+}
+
+.input_one {
+  @apply flex justify-between p-1 pt-8;
+}
+
+.swap_logo_crypto_one {
+  @apply bg-eth pl-5 bg-right bg-no-repeat p-5;
+}
+.swap_logo_crypto_two {
+  @apply bg-usdt pl-5 bg-right bg-no-repeat p-5;
+}
+
+.change_crypto {
+  @apply text-[16px] cursor-pointer text-[#E6E6E8] bg-arrow-d bg-no-repeat bg-right pr-4;
+}
+
+.crypto_input_one {
+  @apply text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] 
+  pl-6;
+}
+
+.change {
+  @apply bg-change bg-no-repeat mt-3 ml-4 p-4 cursor-pointer;
+}
+
+.plus-symbol {
+  @apply bg-plus bg-no-repeat mt-1 ml-4 p-4 cursor-pointer;
+}
+
+.crypto_input_two {
+  @apply text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] 
+  pl-6;
+}
+
+.btn_connected {
+  @apply bg-[#DAA70C] rounded-xl w-full flex flex-wrap mt-7 p-[0.7rem] justify-center;
+}
+
+.btn_disconnected {
+  @apply bg-[#131325] rounded-xl w-full flex flex-wrap mt-7 p-[0.7rem] justify-center;
+}
+
+.twl_one {
+  @apply p-2 pl-3 mx-2 self-center bg-[#131325] rounded-[11px] 
+  text-[13px];
+}
+.twl_one_count {
+  @apply bg-zk bg-no-repeat bg-contain px-6 bg-left;
+}
+.twl_two {
+  @apply p-2 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px];
+}

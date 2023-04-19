@@ -1,0 +1,86 @@
+.layout_main {
+  /* @apply h-screen; */
+}
+
+.header_wrap {
+  @apply container m-auto;
+  background: #07071c;
+  border: 1px solid #131325;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header_main {
+  @apply m-auto py-[0.95rem] flex flex-wrap justify-between;
+}
+
+.header_menu_one {
+  @apply flex flex-wrap;
+}
+.header_menu_one_toggle {
+  @apply flex flex-wrap pl-5;
+}
+.header_menu_one_toggle_el {
+  @apply px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right;
+}
+
+.header_menu_two {
+  @apply flex flex-wrap;
+}
+
+.menu_two_dot {
+  @apply self-start text-[1.3rem] pr-4 cursor-pointer;
+}
+.menu_two_sync {
+  @apply self-center cursor-pointer pl-7 text-[13px] bg-zk bg-no-repeat bg-contain;
+}
+.zkSync_one {
+  @apply pr-4 self-center bg-arrow-d bg-no-repeat bg-right;
+}
+
+.menu_two_connect {
+  @apply self-center cursor-pointer text-[15px] ml-14 px-4 p-1 font-black bg-[#daa70c] rounded-xl;
+}
+
+.footer_wrap {
+  @apply m-auto;
+  background: #07071c;
+  border: 1px solid #131325;
+}
+.footer_main {
+  @apply container m-auto py-5 flex flex-wrap justify-between;
+}
+
+.footer_wrap_menu {
+  @apply flex cursor-pointer justify-between;
+}
+
+.footer_menu_element {
+  @apply ml-20;
+}
+
+.crypto_one {
+  @apply p-3 mb-4 flex rounded;
+  border: 1px solid #131325;
+}
+
+.crypto_one_image {
+  @apply bg-zk bg-no-repeat px-4 bg-auto;
+}
+.crypto_two {
+  @apply p-3 rounded;
+  border: 1px solid #131325;
+}
+.footer_logo {
+  @apply text-xl ml-4 font-bold self-center;
+}
+.footer_follow {
+  @apply mt-28 flex text-[13px];
+}
+.twitter-logo {
+  @apply bg-tw bg-no-repeat px-4 ml-4 bg-contain leading-4;
+}
+.telegram-logo {
+  @apply bg-tg bg-no-repeat px-4 bg-contain leading-4;
+}
+.discord-logo {
+  @apply bg-dis bg-no-repeat px-4 bg-contain leading-4;
+}
