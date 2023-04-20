@@ -2,10 +2,6 @@
   @apply w-[75rem] m-auto;
 }
 
-.top_menu {
-  @apply flex flex-wrap justify-between py-14;
-}
-
 .input_one {
   @apply flex justify-between p-1 pt-8;
 }
@@ -27,14 +23,4 @@
 
 .btn_disconnected {
   @apply bg-[#131325] rounded-xl w-full flex flex-wrap mt-7 p-[0.7rem] justify-center;
-}
-
-.twl_one {
-  @apply p-2 pl-3 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px];
-}
-.twl_one_count {
-  @apply bg-zk bg-no-repeat bg-contain px-6 bg-left;
-}
-.twl_two {
-  @apply p-2 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px];
 }

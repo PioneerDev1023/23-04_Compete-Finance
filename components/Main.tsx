@@ -5,13 +5,13 @@ const Main = () => {
 
   return (
     <div className="container m-auto pb-32">
-      <div className="top_menu">
+      <div className="flex flex-wrap justify-between py-14 px-2">
         <div className="text-[32px] font-semibold cursor-pointer">Exchange</div>
         <div className="flex">
-          <div className="twl_one">
-            <div className="twl_one_count cursor-pointer">$2,936,362</div>
+          <div className="p-2 pl-3 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px]">
+            <div className="bg-zk bg-no-repeat bg-contain px-6 bg-left cursor-pointer">$2,936,362</div>
           </div>
-          <div className="twl_two cursor-pointer">$2,936,362 TVL</div>
+          <div className="p-2 ml-2 self-center bg-[#131325] rounded-[11px] text-[13px] cursor-pointer">$2,936,362 TVL</div>
         </div>
       </div>
       <div className="h-[25rem] w-[90%] md:w-[600px] sm:w-[500px] m-auto p-5 bg-[#07071c] border border-solid border-[#131325] rounded-xl">

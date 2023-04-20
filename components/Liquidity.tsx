@@ -47,7 +47,7 @@ const Main = () => {
               <div className="flex justify-between relative ">
                 <button
                   onClick={(e) => setMax(12)}
-                  className="absolute -left-16 bottom-2 text-[#A4A4A9]"
+                  className="absolute -left-16 bottom-3 text-[#A4A4A9]"
                 >
                   {' '}
                   | Max

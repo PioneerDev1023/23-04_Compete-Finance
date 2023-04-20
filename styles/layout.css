@@ -11,19 +11,6 @@
 .footer_main {
   @apply container m-auto py-5 flex flex-wrap justify-between;
 }
-
-.crypto_one {
-  @apply p-3 mb-4 flex rounded;
-  border: 1px solid #131325;
-}
-
-.crypto_one_image {
-  @apply bg-zk bg-no-repeat px-4 bg-auto;
-}
-.crypto_two {
-  @apply p-3 rounded;
-  border: 1px solid #131325;
-}
 .footer_logo {
   @apply text-xl ml-4 font-bold self-center;
 }
