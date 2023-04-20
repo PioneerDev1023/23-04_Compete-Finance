@@ -50,9 +50,9 @@ const Header = () => {
           </ul>
         </div> */}
         <div className="flex flex-wrap items-center justify-between py-3">
-          <a href="/">
+          <Link href="/">
             <Image src="/svg/logo.svg" alt="Logo" width="40" height="40" />
-          </a>
+          </Link>
           <button type="button" className="block lg:hidden">
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>Menu</title>
@@ -70,7 +70,7 @@ const Header = () => {
               <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">xVictory</a>
             </li>
             <li className="px-4 py-2 md:py-0">
-              <a href="/liquidity" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Liquidity</a>
+              <Link href="/liquidity" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Liquidity</Link>
             </li>
             <li className="px-4 py-2 md:py-0">
               <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">More</a>
