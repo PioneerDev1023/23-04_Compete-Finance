@@ -5,7 +5,7 @@ const Main = () => {
 
   return (
     <div className="container m-auto pb-32">
-      <div className="flex flex-wrap justify-between py-14">
+      <div className="flex flex-wrap justify-between py-14 px-2">
         <div className="text-[32px] font-semibold cursor-pointer">Liquidity</div>
         <div className="flex">
           <div className="p-2 pl-3 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px]">
@@ -15,8 +15,8 @@ const Main = () => {
         </div>
         <div className="w-full text-xs text-[#A4A4A9]">Become a Liquidity Provider and earn your share of trading fees.</div>
       </div>
-      <div className="gap-4 flex justify-between">
-        <div className="liquidity_modal sm:w-full lg:w-5/12 md:w-1/2">
+      <div className="gap-4 flex justify-between px-2 flex-col md:flex-row">
+        <div className="p-5 w-full lg:w-5/12 md:w-1/2 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
           <div className="flex p-2 text-xl justify-between flex-wrap text-[#A4A4A9]">
             <div>Add liquidity</div>
             <div className="flex">
@@ -42,7 +42,7 @@ const Main = () => {
                 placeholder="0"
                 value={max}
                 onChange={(e: any) => setMax(e.target.value)}
-                className="crypto_input_one"
+                className="text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] py-[11px] px-[25px]"
               />
               <div className="flex justify-between relative ">
                 <button
@@ -69,7 +69,7 @@ const Main = () => {
               <input
                 type="number"
                 placeholder="0"
-                className="crypto_input_two"
+                className="text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] py-[11px] px-[25px]"
               />
             </div>
             <div className="flex justify-end text-[#A4A4A9] pr-6 text-[12px]">
@@ -78,7 +78,7 @@ const Main = () => {
           </div>
           <button className="btn_disconnected font-semibold">Not Connected</button>
         </div>
-        <div className="liquidity_modal h-fit sm:w-full lg:w-7/12 md:w-1/2">
+        <div className="h-fit w-full lg:w-7/12 md:w-1/2 p-5 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
           <div className="flex p-2 pb-5 text-xl justify-between flex-wrap text-[#A4A4A9] border-b-2 border-[#131325]">
             <div className='font-medium'>Your Position</div>
             <div className="flex">

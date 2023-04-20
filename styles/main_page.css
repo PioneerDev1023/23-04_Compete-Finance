@@ -6,20 +6,6 @@
   @apply flex flex-wrap justify-between py-14;
 }
 
-.main_swap {
-  @apply h-[25rem] w-[37rem] m-auto  p-5;
-  background: #07071c;
-  border: 1px solid #131325;
-  border-radius: 11px;
-}
-
-.liquidity_modal {
-  @apply p-5;
-  background: #07071c;
-  border: 1px solid #131325;
-  border-radius: 11px;
-}
-
 .input_one {
   @apply flex justify-between p-1 pt-8;
 }
@@ -33,15 +19,6 @@
 
 .change_crypto {
   @apply text-[16px] cursor-pointer text-[#E6E6E8] bg-arrow-d bg-no-repeat bg-right pr-4;
-}
-
-.crypto_input_one {
-  @apply text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] pl-6;
-}
-
-.crypto_input_two {
-  @apply text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] 
-  pl-6;
 }
 
 .btn_connected {

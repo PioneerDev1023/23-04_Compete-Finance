@@ -29,9 +29,9 @@ const Header = () => {
   };
 
   return (
-    <div className="container m-auto header_wrap">
-      <div className="m-auto py-[0.95rem] flex flex-wrap justify-between">
-        <div className="flex flex-wrap cursor-pointer">
+    <div className="header_wrap">
+      <div className="container m-auto py-[0.95rem] px-2 flex flex-wrap justify-between">
+        {/* <div className="flex flex-wrap cursor-pointer">
           <Link href='/'>
             <Image
               src="/svg/logo.svg"
@@ -41,16 +41,44 @@ const Header = () => {
               priority
             />
           </Link>
-          <ul className="flex flex-wrap pl-5">
+          <ul className="flex flex-wrap pl-5 md:pl-0 md:flex-row md:ml-auto">
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right">Trade</li>
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right">Earn</li>
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right">xVictory</li>
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right"><Link href='/liquidity'>Liquidity</Link></li>
             <li className="px-4 cursor-pointer text-[13px] self-center bg-arrow-d bg-no-repeat bg-right">More</li>
           </ul>
+        </div> */}
+        <div className="flex flex-wrap items-center justify-between py-3">
+          <a href="/">
+            <Image src="/svg/logo.svg" alt="Logo" width="40" height="40" />
+          </a>
+          <button type="button" className="block lg:hidden">
+            <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+          <ul className="hidden lg:flex lg:flex-wrap lg:items-center lg:justify-center lg:px-2">
+            <li className="px-4 py-2 md:py-0">
+              <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Trade</a>
+            </li>
+            <li className="px-4 py-2 md:py-0">
+              <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Earn</a>
+            </li>
+            <li className="px-4 py-2 md:py-0">
+              <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">xVictory</a>
+            </li>
+            <li className="px-4 py-2 md:py-0">
+              <a href="/liquidity" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Liquidity</a>
+            </li>
+            <li className="px-4 py-2 md:py-0">
+              <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">More</a>
+            </li>
+          </ul>
         </div>
         <div className="flex flex-wrap">
-          <div className="self-start text-[1.3rem] pr-4 cursor-pointer">...</div>
+          <div className="self-start text-[1.3rem] pr-4 mt-[10px] cursor-pointer">...</div>
           <div className="self-center cursor-pointer pl-7 text-[13px] bg-zk bg-no-repeat bg-contain">
             <div className="pr-4 self-center bg-arrow-d bg-no-repeat bg-right">zkSync</div>
           </div>

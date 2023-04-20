@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className="footer_wrap">
-      <div className="footer_main">
+    <div className="m-auto bg-[#07071c] border border-solid border-[#131325]">
+      <div className="container m-auto py-5 px-2 flex flex-wrap justify-between">
         <div>
           <div className="flex flex-wrap cursor-pointer">
             <Image
@@ -22,21 +22,21 @@ const Footer = () => {
             <img src="/svg/discord.svg" className="ml-2" />
           </div>
         </div>
-        <div className="footer_wrap_menu text-[#D9D9D9]">
-          <ul className="footer_menu_element text-[10px] ">
+        <div className="flex flex-wrap cursor-pointer justify-between text-[#D9D9D9]">
+          <ul className="ml-20 text-[10px] ">
             <li className="text-lg font-medium py-1 text-white">Resources</li>
             <li className='mt-4'>Audit </li>
             <li className='mt-4'>Contract us</li>
             <li className='mt-4'>Contracts</li>
             <li className='mt-4'>Documentation</li>
           </ul>
-          <ul className="footer_menu_element text-[10px]">
+          <ul className="ml-20 text-[10px]">
             <li className="text-lg font-medium py-1 text-white">Help</li>
             <li className='mt-4'>FAQ</li>
             <li className='mt-4'>Guides</li>
             <li className='mt-4'>Support</li>
           </ul>
-          <ul className="footer_menu_element text-[10px]">
+          <ul className="ml-20 text-[10px]">
             <li className="text-lg font-medium py-1 text-white">Tool</li>
             <li className='mt-4'>Analytics</li>
             <li className='mt-4'>Bridge</li>
@@ -45,10 +45,10 @@ const Footer = () => {
             <li className='mt-4'>GeckoTerminal</li>
             <li className='mt-4'>Governance</li>
           </ul>
-          <ul className="footer_menu_element text-[10px]">
+          <ul className="ml-20 text-[10px]">
             <li className="text-lg font-medium py-1 text-white">Ecosystem</li>
-            <li className='mt-5'>Create a Nitro pool</li>
-            <li className='mt-5'>My Nitro pool</li>
+            <li className='mt-4'>Create a Nitro pool</li>
+            <li className='mt-4'>My Nitro pool</li>
           </ul>
         </div>
         <div className="crypto_wrapper cursor-pointer">

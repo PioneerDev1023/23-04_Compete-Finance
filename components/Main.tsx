@@ -14,7 +14,7 @@ const Main = () => {
           <div className="twl_two cursor-pointer">$2,936,362 TVL</div>
         </div>
       </div>
-      <div className="main_swap">
+      <div className="h-[25rem] w-[90%] md:w-[600px] sm:w-[500px] m-auto p-5 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
         <div className="flex p-2 text-xl justify-between flex-wrap text-[#A4A4A9]">
           <div>Swap</div>
           <div className="flex">
@@ -36,12 +36,12 @@ const Main = () => {
               placeholder="0"
               value={max}
               onChange={(e: any) => setMax(e.target.value)}
-              className="crypto_input_one"
+              className="text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] py-[11px] px-[25px]"
             />
             <div className="flex justify-between relative ">
               <button
                 onClick={(e) => setMax(12)}
-                className="absolute -left-16 bottom-2 text-[#A4A4A9]"
+                className="absolute -left-16 bottom-3 text-[#A4A4A9]"
               >
                 {' '}
                 | Max
@@ -63,7 +63,7 @@ const Main = () => {
             <input
               type="number"
               placeholder="0"
-              className="crypto_input_two"
+              className="text-white w-full mx-3 bg-[#131325] rounded-xl placeholder:text-[#A4A4A9] py-[11px] px-[25px]"
             />
           </div>
           <div className="flex justify-end text-[#A4A4A9] pr-6 text-[12px]">
