@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="m-auto bg-[#07071c] border border-solid border-[#131325]">
       <div className="container m-auto py-5 px-2 flex flex-wrap justify-between">
         <div>
-          <div className="flex flex-wrap cursor-pointer">
+          <div className="flex flex-wrap cursor-pointer pb-6">
             <Link href="/">
               <Image
                 src="/svg/logo.svg"
@@ -16,9 +16,9 @@ const Footer = () => {
                 priority
               />
             </Link>
-            <div className="footer_logo cursor-pointer">COMPETE</div>
+            <div className="text-xl ml-4 font-bold self-center cursor-pointer">COMPETE</div>
           </div>
-          <div className="footer_follow cursor-pointer">
+          <div className="mt-28 hidden text-[13px] cursor-pointer lg:flex">
             <div className="m-auto">Follow Us</div>
             <img src="/svg/twitter.svg" className="ml-2" />
             <img src="/svg/telegram.svg" className="ml-2" />
@@ -26,33 +26,37 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-wrap cursor-pointer justify-between text-[#D9D9D9]">
-          <ul className="ml-20 text-[10px] ">
-            <li className="text-[13px] font-bold py-1 text-white">Resources</li>
-            <li className='mt-4'>Audit </li>
-            <li className='mt-4'>Contract us</li>
-            <li className='mt-4'>Contracts</li>
-            <li className='mt-4'>Documentation</li>
-          </ul>
-          <ul className="ml-20 text-[10px]">
-            <li className="text-[13px] font-bold py-1 text-white">Help</li>
-            <li className='mt-4'>FAQ</li>
-            <li className='mt-4'>Guides</li>
-            <li className='mt-4'>Support</li>
-          </ul>
-          <ul className="ml-20 text-[10px]">
-            <li className="text-[13px] font-bold py-1 text-white">Tool</li>
-            <li className='mt-4'>Analytics</li>
-            <li className='mt-4'>Bridge</li>
-            <li className='mt-4'>CoinGecko</li>
-            <li className='mt-4'>DexTool</li>
-            <li className='mt-4'>GeckoTerminal</li>
-            <li className='mt-4'>Governance</li>
-          </ul>
-          <ul className="ml-20 text-[10px]">
-            <li className="text-[13px] font-bold py-1 text-white">Ecosystem</li>
-            <li className='mt-4'>Create a Nitro pool</li>
-            <li className='mt-4'>My Nitro pool</li>
-          </ul>
+          <div className='flex flex-wrap pb-7'>
+            <ul className="mr-20 text-[10px] ">
+              <li className="text-[13px] font-bold py-1 text-white">Resources</li>
+              <li className='mt-4'>Audit </li>
+              <li className='mt-4'>Contract us</li>
+              <li className='mt-4'>Contracts</li>
+              <li className='mt-4'>Documentation</li>
+            </ul>
+            <ul className="mr-20 text-[10px]">
+              <li className="text-[13px] font-bold py-1 text-white">Help</li>
+              <li className='mt-4'>FAQ</li>
+              <li className='mt-4'>Guides</li>
+              <li className='mt-4'>Support</li>
+            </ul>
+          </div>
+          <div className='flex flex-wrap pb-7'>
+            <ul className="mr-20 text-[10px]">
+              <li className="text-[13px] font-bold py-1 text-white">Tool</li>
+              <li className='mt-4'>Analytics</li>
+              <li className='mt-4'>Bridge</li>
+              <li className='mt-4'>CoinGecko</li>
+              <li className='mt-4'>DexTool</li>
+              <li className='mt-4'>GeckoTerminal</li>
+              <li className='mt-4'>Governance</li>
+            </ul>
+            <ul className="mr-20 text-[10px]">
+              <li className="text-[13px] font-bold py-1 text-white">Ecosystem</li>
+              <li className='mt-4'>Create a Nitro pool</li>
+              <li className='mt-4'>My Nitro pool</li>
+            </ul>
+          </div>
         </div>
         <div className="crypto_wrapper cursor-pointer">
           <div className="p-2 mb-4 flex rounded border border-solid border-[#131325]">
@@ -63,9 +67,15 @@ const Footer = () => {
               height={20}
               priority
             />
-            <div className='px-4 text-[13px] font-bold'>$2,936,362</div>
+            <div className='px-4 text-[13px] font-bold'>$ 2,936,362</div>
           </div>
           <div className="p-2 text-[13px] font-bold rounded border border-[#131325] border-solid">$ 2,936,362 TVL</div>
+          <div className="mt-3 flex text-[13px] cursor-pointer lg:hidden">
+            <div className="m-auto">Follow Us</div>
+            <img src="/svg/twitter.svg" className="ml-2" />
+            <img src="/svg/telegram.svg" className="ml-2" />
+            <img src="/svg/discord.svg" className="ml-2" />
+          </div>
         </div>
       </div>
       <div className="text-center p-4 text-[#D9D9D9] text-[13px]">
