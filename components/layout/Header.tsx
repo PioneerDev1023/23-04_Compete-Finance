@@ -61,19 +61,19 @@ const Header = () => {
           </button>
           <ul className="hidden lg:flex lg:flex-wrap lg:items-center lg:justify-center lg:px-2">
             <li className="px-4 py-2 md:py-0">
-              <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Trade</a>
+              <Link href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Trade</Link>
             </li>
             <li className="px-4 py-2 md:py-0">
-              <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Earn</a>
+              <Link href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Earn</Link>
             </li>
             <li className="px-4 py-2 md:py-0">
-              <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">xVictory</a>
+              <Link href="/position" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Position</Link>
             </li>
             <li className="px-4 py-2 md:py-0">
               <Link href="/liquidity" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">Liquidity</Link>
             </li>
             <li className="px-4 py-2 md:py-0">
-              <a href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">More</a>
+              <Link href="#" className="block md:inline-block px-2 py-1 md:px-4 md:py-2 text-white hover:text-gray-300">More</Link>
             </li>
           </ul>
         </div>

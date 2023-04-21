@@ -14,7 +14,7 @@ const Main = () => {
           <div className="p-2 ml-2 self-center bg-[#131325] rounded-[11px] text-[13px] cursor-pointer">$2,936,362 TVL</div>
         </div>
       </div>
-      <div className="h-[25rem] w-[90%] md:w-[600px] sm:w-[500px] m-auto p-5 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
+      <div className="h-[25rem] w-[90%] md:w-[600px] sm:w-[500px] m-auto p-7 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
         <div className="flex p-2 text-xl justify-between flex-wrap text-[#A4A4A9]">
           <div>Swap</div>
           <div className="flex">

@@ -1,15 +1,18 @@
-import Main from '@/components/Main';
+import Exchange from '@/components/Exchange';
 import Layout from '@/components/layout';
 import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
 
 export default function Home() {
 
   return (
-    <main className={inter.className}>
+    <main className={`${inter.variable} font-sans`}>
       <Layout>
-        <Main />
+        <Exchange />
       </Layout>
     </main>
   );

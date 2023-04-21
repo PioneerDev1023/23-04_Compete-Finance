@@ -1,3 +1,5 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -21,6 +23,9 @@ module.exports = {
         'usdt': "url('/svg/usdt.svg')",
         'change': "url('/svg/change.svg')",
         'plus': "url('/svg/plus.svg')",
+      },
+      fontFamily: {
+        sans: ['var(--font-inter)', ...fontFamily.sans],
       },
     },
   },

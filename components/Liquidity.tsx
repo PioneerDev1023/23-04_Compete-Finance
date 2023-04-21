@@ -9,14 +9,14 @@ const Main = () => {
         <div className="text-[32px] font-semibold cursor-pointer">Liquidity</div>
         <div className="flex">
           <div className="p-2 pl-3 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px]">
-            <div className="bg-zk bg-no-repeat bg-contain px-6 bg-left cursor-pointer">$2,936,362</div>
+            <div className="bg-zk bg-no-repeat bg-contain px-6 bg-left cursor-pointer font-bold">$2,936,362</div>
           </div>
-          <div className="p-2 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px] cursor-pointer">$2,936,362 TVL</div>
+          <div className="p-2 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px] cursor-pointer font-bold">$2,936,362 TVL</div>
         </div>
         <div className="w-full text-xs text-[#A4A4A9]">Become a Liquidity Provider and earn your share of trading fees.</div>
       </div>
       <div className="gap-4 flex justify-between px-2 flex-col md:flex-row">
-        <div className="p-5 w-full lg:w-5/12 md:w-1/2 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
+        <div className="p-7 w-full lg:w-5/12 md:w-1/2 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
           <div className="flex p-2 text-xl justify-between flex-wrap text-[#A4A4A9]">
             <div>Add liquidity</div>
             <div className="flex">
@@ -78,7 +78,7 @@ const Main = () => {
           </div>
           <button className="btn_disconnected font-semibold">Not Connected</button>
         </div>
-        <div className="h-fit w-full lg:w-7/12 md:w-1/2 p-5 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
+        <div className="h-fit w-full lg:w-7/12 md:w-1/2 p-7 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
           <div className="flex p-2 pb-5 text-xl justify-between flex-wrap text-[#A4A4A9] border-b-2 border-[#131325]">
             <div className='font-medium'>Your Position</div>
             <div className="flex">

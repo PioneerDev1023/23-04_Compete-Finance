@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="m-auto bg-[#07071c] border border-solid border-[#131325]">
       <div className="container m-auto py-5 px-2 flex flex-wrap justify-between">
         <div>
-          <div className="flex flex-wrap cursor-pointer pb-6">
-            <Link href="/">
+          <div>
+            <Link href="https://compete.finance/" className="flex flex-wrap cursor-pointer pb-6">
               <Image
                 src="/svg/logo.svg"
                 alt="Logo"
@@ -15,14 +15,14 @@ const Footer = () => {
                 height={40}
                 priority
               />
+              <div className="text-xl ml-4 font-bold self-center cursor-pointer">COMPETE</div>
             </Link>
-            <div className="text-xl ml-4 font-bold self-center cursor-pointer">COMPETE</div>
           </div>
           <div className="mt-28 hidden text-[13px] cursor-pointer lg:flex">
             <div className="m-auto">Follow Us</div>
-            <img src="/svg/twitter.svg" className="ml-2" />
-            <img src="/svg/telegram.svg" className="ml-2" />
-            <img src="/svg/discord.svg" className="ml-2" />
+            <Link href="https://twitter.com/zkcompete"><img src="/svg/twitter.svg" className="ml-2 w-6 h-6" /></Link>
+            <Link href="https://t.me/competefinance"><img src="/svg/telegram.svg" className="ml-2 w-6 h-6" /></Link>
+            <Link href="https://discord.gg/dPnZj26UCC"><img src="/svg/discord.svg" className="ml-2 w-6 h-6" /></Link>
           </div>
         </div>
         <div className="flex flex-wrap cursor-pointer justify-between text-[#D9D9D9]">
@@ -32,7 +32,7 @@ const Footer = () => {
               <li className='mt-4'>Audit </li>
               <li className='mt-4'>Contract us</li>
               <li className='mt-4'>Contracts</li>
-              <li className='mt-4'>Documentation</li>
+              <Link href="https://docs.compete.finance"><li className='mt-4'>Documentation</li></Link>
             </ul>
             <ul className="mr-20 text-[10px]">
               <li className="text-[13px] font-bold py-1 text-white">Help</li>
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="crypto_wrapper cursor-pointer">
-          <div className="p-2 mb-4 flex rounded border border-solid border-[#131325]">
+          <div className="p-2 mb-4 flex rounded border border-solid border-[#131325] text-center">
             <Image 
               src="/svg/headerZk.svg"
               alt="Logo"
@@ -67,9 +67,9 @@ const Footer = () => {
               height={20}
               priority
             />
-            <div className='px-4 text-[13px] font-bold'>$ 2,936,362</div>
+            <div className='px-4 text-[13px] font-bold'>$2,936,362</div>
           </div>
-          <div className="p-2 text-[13px] font-bold rounded border border-[#131325] border-solid">$ 2,936,362 TVL</div>
+          <div className="p-2 text-[13px] font-bold rounded border border-[#131325] border-solid text-center">$2,936,362 TVL</div>
           <div className="mt-3 flex text-[13px] cursor-pointer lg:hidden">
             <div className="m-auto">Follow Us</div>
             <img src="/svg/twitter.svg" className="ml-2" />
