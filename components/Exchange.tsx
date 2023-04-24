@@ -8,7 +8,7 @@ const Main = () => {
       <div className="flex flex-wrap justify-between py-14 px-2">
         <div className="text-[32px] font-semibold cursor-pointer">Exchange</div>
         <div className="flex">
-          <div className="p-2 pl-3 mx-2 self-center bg-[#131325] rounded-[11px] text-[13px]">
+          <div className="p-2 pl-3 ml-0 sm:mx-2 self-center bg-[#131325] rounded-[11px] text-[13px]">
             <div className="bg-zk bg-no-repeat bg-contain px-6 bg-left cursor-pointer">$2,936,362</div>
           </div>
           <div className="p-2 ml-2 self-center bg-[#131325] rounded-[11px] text-[13px] cursor-pointer">$2,936,362 TVL</div>

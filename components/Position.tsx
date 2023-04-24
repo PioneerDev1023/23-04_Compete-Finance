@@ -98,13 +98,6 @@ const Main = () => {
                   <td className="py-2"></td>
                   <td className="py-2"></td>
                 </tr>
-                <tr>
-                  <td className="py-2"></td>
-                  <td className="py-2"></td>
-                  <td className="py-2"></td>
-                  <td className="py-2"></td>
-                  <td className="py-2"></td>
-                </tr>
               </tbody>
             </table>
           </div>
