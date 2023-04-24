@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div className="container m-auto pb-32">
       <div className="flex flex-wrap justify-between py-14 px-2">
-        <div className="text-[32px] font-semibold cursor-pointer">Liquidity</div>
+        <div className="text-[32px] font-bold cursor-pointer">Liquidity</div>
         <div className="flex">
           <div className="p-2 pl-3 ml-0 sm:mx-2 self-center bg-[#131325] rounded-[11px] text-[13px]">
             <div className="bg-zk bg-no-repeat bg-contain px-6 bg-left cursor-pointer font-bold">$2,936,362</div>
