@@ -5,16 +5,16 @@ const Main = () => {
 
   return (
     <div className="container m-auto pb-32">
-      <div className="flex flex-wrap justify-between py-14 px-2">
+      <div className="flex flex-wrap justify-between pt-28 pb-14 px-2">
         <div className="text-[32px] font-bold cursor-pointer">Exchange</div>
         <div className="flex">
           <div className="p-2 pl-3 ml-0 sm:mx-2 self-center bg-[#131325] rounded-[11px] text-[13px]">
-            <div className="bg-zk bg-no-repeat bg-contain px-6 bg-left cursor-pointer">$2,936,362</div>
+            <div className="bg-zk bg-no-repeat bg-contain px-6 bg-left cursor-pointer font-bold">$2,936,362</div>
           </div>
-          <div className="p-2 ml-2 self-center bg-[#131325] rounded-[11px] text-[13px] cursor-pointer">$2,936,362 TVL</div>
+          <div className="p-2 ml-2 self-center bg-[#131325] rounded-[11px] text-[13px] cursor-pointer font-bold">$2,936,362 TVL</div>
         </div>
       </div>
-      <div className="h-[25rem] w-[90%] md:w-[600px] sm:w-[500px] m-auto p-7 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
+      <div className="w-[90%] md:w-[600px] sm:w-[500px] m-auto p-7 bg-[#07071c] border border-solid border-[#131325] rounded-xl">
         <div className="flex p-2 text-xl justify-between flex-wrap text-[#A4A4A9]">
           <div>Swap</div>
           <div className="flex">
@@ -70,7 +70,7 @@ const Main = () => {
             Balance: 2334 USDT
           </div>
         </div>
-        <button className="btn_connected font-semibold">Connected</button>
+        <button className="bg-[#DAA70C] rounded-xl w-full flex flex-wrap mt-7 p-[0.7rem] justify-center font-semibold">Connected</button>
       </div>
     </div>
   );
