@@ -6,8 +6,8 @@ import CustomButton from "../fragment/button";
 
 const Header: React.FC = () => {
 
-  const [activeDropdown, setActiveDropdown] = useState(null);
-  function toggleDropdown(index) {
+  const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
+  function toggleDropdown(index: number) {
     setActiveDropdown(index === activeDropdown ? null : index);
   }
 
