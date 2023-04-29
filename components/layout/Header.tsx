@@ -11,11 +11,6 @@ const Header: React.FC = () => {
     setActiveDropdown(index === activeDropdown ? null : index);
   }
 
-  const [isOpenEarn, setIsOpenEarn] = useState(false)
-  function toggleDropdownEarn() {
-    setIsOpenEarn(!isOpenEarn)
-  }
-
   const toggleMenu = () => {
     const navbar = document.getElementById('navbar-sticky');
     if (navbar) {
