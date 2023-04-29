@@ -21,13 +21,13 @@ const Footer = () => {
           <div className="mt-28 hidden text-[13px] cursor-pointer lg:flex">
             <div className="m-auto">Follow Us</div>
             <Link href="https://twitter.com/zkcompete">
-              <Image src="/svg/twitter.svg" alt="twitter" width={24} height={24} className="ml-2" />
+              <Image src="/svg/twitter.svg" alt="twitter" width={24} height={24} className="ml-2" priority />
             </Link>
             <Link href="https://t.me/competefinance">
-              <Image src="/svg/telegram.svg" alt="twitter" width={24} height={24} className="ml-2" />
+              <Image src="/svg/telegram.svg" alt="twitter" width={24} height={24} className="ml-2" priority />
             </Link>
             <Link href="https://discord.gg/dPnZj26UCC">
-              <Image src="/svg/discord.svg" alt="twitter" width={24} height={24} className="ml-2" />
+              <Image src="/svg/discord.svg" alt="twitter" width={24} height={24} className="ml-2" priority />
             </Link>
           </div>
         </div>
@@ -79,13 +79,13 @@ const Footer = () => {
           <div className="mt-3 flex text-[13px] cursor-pointer lg:hidden">
             <div className="m-auto">Follow Us</div>
             <Link href="https://twitter.com/zkcompete">
-              <Image src="/svg/twitter.svg" alt="twitter" width={24} height={24} className="ml-2" />
+              <Image src="/svg/twitter.svg" alt="twitter" width={24} height={24} className="ml-2" priority />
             </Link>
             <Link href="https://t.me/competefinance">
-              <Image src="/svg/telegram.svg" alt="twitter" width={24} height={24} className="ml-2" />
+              <Image src="/svg/telegram.svg" alt="twitter" width={24} height={24} className="ml-2" priority />
             </Link>
             <Link href="https://discord.gg/dPnZj26UCC">
-              <Image src="/svg/discord.svg" alt="twitter" width={24} height={24} className="ml-2" />
+              <Image src="/svg/discord.svg" alt="twitter" width={24} height={24} className="ml-2" priority />
             </Link>
           </div>
         </div>
